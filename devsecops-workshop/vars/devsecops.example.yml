@@ -59,13 +59,11 @@ s3_state: present
 # run with install_cicd_project equal to true or the projects have been created previously
 install_quay: true
 install_oscap: true
+install_users: true
 install_cicd_projects: true
 
-# Install wetty and the users for wetty
-# if install_wetty is true, the provisioner will install wetty AND create users
-# install_users only creates users
-install_wetty: true
-install_users: true
+# Install Butterfly TTY terminal
+install_butterfly: true
 
 #install dc metro map 
 install_dcmm: true
