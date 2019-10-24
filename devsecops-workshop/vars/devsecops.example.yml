@@ -2,6 +2,8 @@
 # IMPORTANT: Setting this allows keyless password login and user has sudo privileges.
 # ec2_user_pass: changeme!
 
+github_user: RedHatGov
+
 # Generates a set of non-admin users that can be used for workshops, demos, etc.
 # Users are created with the prefix plus a number using the password specified.
 # It doesn't appear that these users are actually created in OCP. They should already exist
